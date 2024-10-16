@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon.ico.ico" type="image/x-icon">
+    <title>Memory Game</title>
+</head>
+<body>
+    <div class="container">
+        
+        <h1>Memory Game</h1>
+        <div id="DJ PATIL">
+            <span style="display: block;">From BinaryBrains</span><br>
+            __________________________________
+        </div>
+        <div class="info-container" id="info-container">
+
+            <div class="score-timer">
+                <div id="timer">Time: 0s</div>
+                <div id="score">Score: 0</div>
+                <div id="level">Level: 1</div>
+            </div>
+            <button id="restart-btn">Restart</button>
+        </div>
+        <div class="level-selection" id="level-selection">
+            <h2>Select Level</h2>
+            <button class="level-btn" data-level="1">Level 1</button>
+            <button class="level-btn" data-level="2">Level 2</button>
+
+        </div>
+        <div class="game-container" id="game-container"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+</body>
+</html>
